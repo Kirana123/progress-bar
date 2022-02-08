@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:max="100"
+        android:min="0" />
     <!-- adding progress bar -->
     <ProgressBar
         android:id="@+id/progress_Bar"
